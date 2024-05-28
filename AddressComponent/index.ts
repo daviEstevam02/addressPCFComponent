@@ -56,7 +56,7 @@ export class AddressComponent implements ComponentFramework.StandardControl<IInp
         this._container.appendChild(gmpMap)
         
 
-        let scriptUrl = "https://maps.googleapis.com/maps/api/js?key=AIzaSyAo3AVFoGLIo0G5OFB4y6Jy27IQcQJnzX8&callback=initMap&v=beta&libraries=places,marker&callback=initAutocomplete" 
+        let scriptUrl = "https://maps.googleapis.com/maps/api/js?key=API_KEY&callback=initMap&v=beta&libraries=places,marker&callback=initAutocomplete" 
 
         let scriptNode = document.createElement('script');
         scriptNode.setAttribute('type', 'text/javascript');
