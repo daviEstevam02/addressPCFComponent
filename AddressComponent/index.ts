@@ -11,10 +11,6 @@ export class AddressComponent implements ComponentFramework.StandardControl<IInp
 
     private autocomplete: google.maps.places.Autocomplete;
     private street: string;
-    private city: string;
-    private state: string;
-    private zipcode: string;
-    private country: string;
 
     constructor()
     {
@@ -113,10 +109,6 @@ export class AddressComponent implements ComponentFramework.StandardControl<IInp
     {
         return {
             street: this.street,
-            city: this.city,
-            state: this.state,
-            country: this.country,
-            zipcode: this.zipcode
         };
     }
 
